@@ -1,0 +1,24 @@
+[project]
+name = "entropick"
+version = "0.1.0"
+description = "Fair and random reviewer assignment for pull requests via Slack app."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+# Ruff configuration - minimal setup
+[tool.ruff]
+line-length = 88
+target-version = "py313"
+
+[tool.ruff.lint]
+# Basic linting rules
+select = ["E", "F", "W", "I"]  # pycodestyle errors/warnings, Pyflakes, isort
+
+[tool.ruff.format]
+quote-style = "double"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.11.11",
+]
