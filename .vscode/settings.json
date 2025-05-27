@@ -1,0 +1,29 @@
+{
+  // Python interpreter
+  "python.defaultInterpreterPath": "./.venv/bin/python",
+  
+  // Formatting with Ruff
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  
+  // Type checking - standard level
+  "python.analysis.typeCheckingMode": "standard",
+  "python.analysis.autoImportCompletions": true,
+  
+  // Editor settings
+  "editor.rulers": [88],
+  "editor.tabSize": 4,
+  "files.insertFinalNewline": true,
+  
+  // Hide common noise files
+  "files.exclude": {
+    "**/__pycache__": true,
+    ".ruff_cache": true
+  }
+} 
