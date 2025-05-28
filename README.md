@@ -31,7 +31,7 @@ uv sync
 3. **Run the application**
 
 ```bash
-python main.py
+python app.py
 ```
 
 ## Development

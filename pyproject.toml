@@ -4,7 +4,10 @@ version = "0.1.0"
 description = "Fair and random reviewer assignment for pull requests via Slack app."
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "python-dotenv>=1.1.0",
+    "slack-bolt>=1.23.0",
+]
 
 # Ruff configuration - minimal setup
 [tool.ruff]
