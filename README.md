@@ -24,21 +24,22 @@ cd entropick
 
 ```bash
 uv venv
-uv sync --dev
+source .venv/bin/activate
+uv sync
 ```
 
 3. **Run the application**
 
 ```bash
-uv run python main.py
+python main.py
 ```
 
 ## Development
 
 ### Code Quality
 
-- **Linting**: `uv run ruff check .`
-- **Formatting**: `uv run ruff format .`
+- **Linting**: `ruff check .`
+- **Formatting**: `ruff format .`
 
 ### Project Structure
 
