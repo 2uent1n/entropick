@@ -17,6 +17,7 @@ target-version = "py313"
 [tool.ruff.lint]
 # Basic linting rules
 select = ["E", "F", "W", "I"]  # pycodestyle errors/warnings, Pyflakes, isort
+ignore = ["E501"]  # Ignore line too long warnings
 
 [tool.ruff.format]
 quote-style = "double"
